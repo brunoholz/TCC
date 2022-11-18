@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* 
+
+    DEIXAR A BORDA DO HEADER REDONDA
+
+    border-bottom-left-radius: 0.938rem;
+    border-bottom-right-radius: 0.938rem;
+    box-shadow: 0 3px 5px black;
+    
+        !!! ADICIONAR NO HEADER !!!
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* Propriedades do Header */
+
+header {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    background-color: #000000c6;
+    box-shadow: 0 3px 5px black;
+}
+
+/* Iniciando o flex no Header */
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo da Neura Clean */
+
+.neura-clean {
+    color: white;
+    width: 3rem;
+}
+
+.gambiarra {
+    margin-left: 4.125rem;
+}
+
+/* ------------------------ */
+
+/* Barra de navegação */
+
+.div-nav {
+    margin-right: 4.125rem;
+}
+
+/* Elementos de navegação (a) */
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.4rem;
+    transition-duration: 1s;
+}
+
+/* Efeito passar mouse em cima do elemento (a) */
+
+.nav-item:hover {
+    transition-duration: 0.2s;
+    color: rgb(111, 183, 255);
+    scroll-behavior: smooth;
+}
+
+/* ------------------------ */
