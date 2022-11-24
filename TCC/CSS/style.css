@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-/* 
-
-    DEIXAR A BORDA DO HEADER REDONDA
-
-    border-bottom-left-radius: 0.938rem;
-    border-bottom-right-radius: 0.938rem;
-    box-shadow: 0 3px 5px black;
-    
-        !!! ADICIONAR NO HEADER !!!
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -24,8 +12,15 @@
 header {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    background-color: #000000c6;
-    box-shadow: 0 3px 5px black;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0 3px 5px white; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#home {
+    filter: grayscale(0%);
 }
 
 /* Iniciando o flex no Header */
@@ -34,6 +29,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 /* Logo da Neura Clean */
@@ -57,9 +53,9 @@ header {
 
 /* Elementos de navegação (a) */
 
-.nav-item {
+.nav-item, .cliqueaqui {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     margin-left: 0.4rem;
     transition-duration: 1s;
@@ -69,8 +65,120 @@ header {
 
 .nav-item:hover {
     transition-duration: 0.2s;
-    color: rgb(111, 183, 255);
-    scroll-behavior: smooth;
+    color: #3ed14c;
 }
 
 /* ------------------------ */
+
+/* CORPO */
+
+.corpo {
+    margin-top: 149px;
+}
+
+.corpo p {
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.corpo h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Contextualização */
+
+.image-bg {
+    color: black;
+    background-image: url('./PATE\ DE\ CIMA\ COM\ IMAGEM\ 3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 50px 20px 300px 20px;
+    
+}
+
+.image-bg .e {
+    width: 55%;
+}
+
+.image-bg h1 {
+    width: 60%;
+}
+
+/* ------------------------ */
+
+/* EQUIPE CARD */
+
+#equipe-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#equipe-card h1 {
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3ed14c;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 29vh;
+    transition-duration: 2s;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.fotoequipe {
+    width: 101%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover {
+    width: 33vh;
+    transition-duration: 0.5s;
+}
+
+.linha-horizontal {
+    width: 100%;
+    border: 1px solid #3ed14c;
+}
+
+.ne {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ------------------------ */
+
+/* IMG, MISSÃO, VISÃO e VALORES */
+
+.missao {
+    background-color: #dbd9d9; /* #f6f6f6 */
+    padding: 20px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-img {
+    width: 10%;
+}
+
+.visao-img {
+    width: 10%;
+}
+
+
+/* MEDIA */
