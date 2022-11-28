@@ -38,4 +38,6 @@ function abrirInsta() {
 
 abrirInsta();
 
+// getIdeaisImg
 
+getIdeaisImg = document.querySelector('#getIdeaisImg');
