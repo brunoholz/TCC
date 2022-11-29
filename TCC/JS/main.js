@@ -38,6 +38,10 @@ function abrirInsta() {
 
 abrirInsta();
 
-// getIdeaisImg
+// Pegando Imagens Ideais
 
-getIdeaisImg = document.querySelector('#getIdeaisImg');
+getMissionImg = document.querySelector('.mission-img');
+getVisaoImg = document.querySelector('.visao-img');
+getValoresImg = document.querySelector('.valores-img');
+
+

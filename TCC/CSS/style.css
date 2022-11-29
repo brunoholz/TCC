@@ -137,11 +137,12 @@ header {
     text-align: center;
     border-radius: 10px;
     align-items: center;
-    width: 29vh;
+    width: 30vh;
     transition-duration: 1.5s;
     margin-bottom: 100px;
     box-sizing: border-box;
     cursor: pointer;
+    height: 30%;
 }
 
 .fotoequipe {
@@ -170,38 +171,33 @@ header {
 
 /* ------------------------ */
 
-/* IMG, MISSÃO, VISÃO e VALORES */
+/* MISSÃO, VISÃO e VALORES */
 
-.ideais {
-    background-color: #dbd9d9; /* #f6f6f6 */
-    padding: 20px;
+.missao-visao-valores {
+    display: flex;
 }
 
-.imgs {
+.ideais-img {
+    width: 20vh;
+}
+ 
+.ideais p {
+    font-size: 20px;
+    width: 80%
+} 
+
+.missao, .visao, .valores {
+    background-color: #f6f6f6;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-}
-
-.mission-img,
-.visao-img,
-.valores-img {
-    width: 10%;
-}
-
-.flex {
-    display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.imgs h1 {
-    text-align: start;
-    color: #000000;
-}
 
-.espaco {
-    margin: 20px 0 20px 0;
-}
+
+
 
 /* SONO */
 
@@ -218,20 +214,3 @@ header {
     cursor: pointer;   
 }
 
-.card-5 {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    text-align: center;
-    border-radius: 10px;
-    align-items: center;
-    width: 50%;
-    transition-duration: 1.5s;
-    margin-bottom: 100px;
-    cursor: pointer;
-}
-
-.foco {
-    display: flex;
-    flex-direction: row;
-}
