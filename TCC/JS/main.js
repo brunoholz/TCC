@@ -40,8 +40,18 @@ abrirInsta();
 
 // Pegando Imagens Ideais
 
-getMissionImg = document.querySelector('.mission-img');
-getVisaoImg = document.querySelector('.visao-img');
-getValoresImg = document.querySelector('.valores-img');
+const getMissao = document.querySelector('.missaoImg');
+const getVisao = document.querySelector('.visaoImg');
+const getValores = document.querySelector('.valoresImg');
 
+getMissao.addEventListener('click', function() {
+    console.log('Clicou na missão!');
+});
 
+getVisao.addEventListener('click', function() {
+    console.log('Clicou na visão!');
+});
+
+getValores.addEventListener('click', function() {
+    console.log('Clicou no valores!');
+});

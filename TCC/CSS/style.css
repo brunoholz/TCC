@@ -19,10 +19,6 @@ header {
     top: 0;
 }
 
-#home {
-    filter: grayscale(0%);
-}
-
 /* Iniciando o flex no Header */
 
 .div-header {
@@ -39,7 +35,7 @@ header {
     width: 3rem;
 }
 
-.gambiarra {
+.gambiarra, .div-nav {
     margin-left: 4.125rem;
 }
 
@@ -124,6 +120,7 @@ header {
 #equipe-card h1 {
     font-size: 15px;
     padding: 10px 0 10px 0;
+    width: 100%;
 }
 
 .card-1,
@@ -179,6 +176,7 @@ header {
 
 .ideais-img {
     width: 20vh;
+    cursor: pointer;
 }
  
 .ideais p {
@@ -195,10 +193,6 @@ header {
     justify-content: space-around;
 }
 
-
-
-
-
 /* SONO */
 
 .bg-img-sono {
@@ -214,3 +208,27 @@ header {
     cursor: pointer;   
 }
 
+/* ------------------------ */
+
+/* Exercício */
+
+#exercicio {
+    width: 100%;
+}
+
+.exercicio-fundo-image {
+    background-image: url('./Exercício\ fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 0 400px 20px;
+}
+
+.teste {
+    margin-left: 33%;
+}
+
+@media screen {
+    .exercicio-fundo-image {
+        
+    }
+}
