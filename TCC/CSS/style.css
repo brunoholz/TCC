@@ -173,6 +173,7 @@ header {
 .missao-visao-valores {
     margin-top: 50px;
     display: flex;
+    background-color: #f6f6f6;
 }
 
 .ideais-img {
@@ -186,7 +187,6 @@ header {
 } 
 
 .missao, .visao, .valores {
-    background-color: #f6f6f6;
     width: 50%;
     display: flex;
     flex-direction: column;
