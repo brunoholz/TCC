@@ -284,3 +284,11 @@ header {
         margin-bottom: 10px;
     }
 }
+
+/* MEDIA QUERY EXERCÍCIO */
+
+@media(max-width: 768px) {
+    .exercicio-fundo-image {
+        margin-top: 50px;
+    }
+}
